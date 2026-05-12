@@ -1,6 +1,14 @@
-def sayhi():
-    print("Hello USer")
+def sayhi(name):
+    print("Hello {name}")
     
 print("Top")    
-sayhi()
+sayhi("User")
 print("Bottom")
+
+
+def get_cube_num(num):
+    return num*num*num
+    
+    
+print(get_cube_num(3))
+    
