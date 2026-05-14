@@ -5,4 +5,8 @@ number_grid = [
     [0]
 ]
 
-print(number_grid[0][1])
+# print(number_grid[0][1])
+
+for row in number_grid:
+    for col in row:
+        print(col)
